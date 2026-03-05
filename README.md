@@ -1,5 +1,5 @@
 # LM Studio GPU Idle Fix — Tesla P40 / NVIDIA CUDA Runtime
-
+Note: I'm sick and tired of constant upgrade and downgrade lm studio just to fix this before scaling up fallback inferrence system, so many user report the same thing but the dev just don't care. And here I am, publishing this, this is developed around P40 in mind so you may need to try something else for your own gpu.
 ## Problem
 
 LM Studio (v0.3.10+) fails to release the CUDA context when no model is loaded, keeping the GPU permanently stuck at **P0 / ~50W** instead of dropping to **P8 / ~11W** at idle.

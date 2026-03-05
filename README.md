@@ -92,6 +92,9 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 # Custom parameters
 .\P40_idle_watchdog.ps1 -IdleThresholdSec 20 -VramIdleThresholdMB 500 -PollIntervalSec 5
+
+# What I used
+.\p40_watch.ps1 -MinCoreClock 544 -MinMemClock 202.5
 ```
 
 ### Parameters

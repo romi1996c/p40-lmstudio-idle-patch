@@ -11,9 +11,9 @@ LM Studio's background process holds an active CUDA compute context (`Type: C` i
 ```
 +------------------------------------------------------------------------------+
 | Processes:                                                                   |
-|  GPU   GI   CI   PID   Type   Process name                       GPU Memory |
-|=============================================================================|
-|    0   N/A  N/A  19704   C    F:\LLM\LM Studio\LM Studio.exe        148MiB |
+|  GPU   GI   CI   PID   Type   Process name                        GPU Memory |
+|==============================================================================|
+|    0   N/A  N/A  19704   C    [LMstudio path]\LM Studio.exe           148MiB |
 +------------------------------------------------------------------------------+
 ```
 

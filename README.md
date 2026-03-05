@@ -137,8 +137,8 @@ nvidia-smi -q > gpu_diag.txt
 | State | P-State | Power | VRAM |
 |---|---|---|---|
 | True idle (no CUDA context) | P8 | ~11W | 0 MiB |
-| LM Studio open, no model | P0 | ~50W | 148 MiB |
-| Model loaded | P0 | ~50-85W | Hundreds–thousands MiB |
+| LM Studio open, no model loaded | P0 | ~50W | 148 MiB |
+| Model being load/loaded | P0 | ~50-85W | Hundreds–thousands MiB |
 | Inference active | P0 | ~85-250W | Model size |
 
 ---
@@ -148,7 +148,7 @@ nvidia-smi -q > gpu_diag.txt
 - **GPU:** NVIDIA Tesla P40 (24GB, TCC mode, Pascal architecture)
 - **OS:** Windows 10 Pro x64
 - **Driver:** 582.16 / CUDA 13.0
-- **LM Studio:** 0.4.x with CUDA runtime
+- **LM Studio:** 0.4.6 with CUDA runtime (llama.cpp v2.5.1)
 
 ---
 
